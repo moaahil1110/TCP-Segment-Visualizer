@@ -46,6 +46,9 @@ pip install pyshark pandas matplotlib
    python your_script.py
    ```
 2. Select a Capture File: Use the GUI to browse and select a `.pcap` or `.pcapng` file.
-3. View Analysis: The application displays:
+3. View Analysis:
+
+    The application displays:
+   
     -A table of TCP headers (including RTT values)
     -Graphs for RTT, Timeout Intervals, CWND changes, and RWND changes
